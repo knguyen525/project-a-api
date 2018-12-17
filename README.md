@@ -19,6 +19,11 @@ This sample includes:
 * tests/ - this directory contains unit tests for your application
 * template-configuration.json - this file contains the project ARN with placeholders used for tagging resources with the project ID
 
+Notes from Khanh
+The related LAMBDA microservices for this api gateway is located here:
+- https://github.com/knguyen525/project-a-ms1
+- https://github.com/knguyen525/project-a-ms2
+
 What Do I Do Next?
 ------------------
 
