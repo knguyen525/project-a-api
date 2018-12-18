@@ -41,6 +41,7 @@ paths:
     post:
       responses: {}
       x-amazon-apigateway-integration:
+        credentials: !GetAtt GatewayExecutionRole.Arn
         uri: "arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-west-2:239540765773:function:awscodestar-project-a-ms3-lambda-GetHelloWorld-8WWD0990UHZP/invocations"
         passthroughBehavior: "when_no_match"
         httpMethod: "POST"
